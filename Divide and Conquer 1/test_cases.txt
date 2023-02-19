@@ -1,0 +1,29 @@
+Case 1:
+Input: nums = [2,3,-2,4]
+Output: 6
+Explanation: [2,3] has the largest product 6.
+
+Case 2:
+Input: nums = [-2,0,-1]
+Output: 0
+Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
+
+Case 3:
+Input: nums = [2]
+Output: 0
+Explanation: There is no product for single element, hence 0.
+
+Case 4:
+Input: nums = [2,0,4]
+Output: 0
+Explanation: The product for [2,0,4], [2,0] and [0,4] is 0.
+
+Case 5:
+Input: nums = [2,2,4]
+Output: 16
+Explanation: [2,2,4] has the largest product 16.
+
+Case 6:
+Input: nums = [-2,-2,4]
+Output: 16
+Explanation: [-2,-2,4] has the largest product 16. Both negatives cancel out in multiplication.
